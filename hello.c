@@ -13,9 +13,9 @@ int main(void){
     while (!WindowShouldClose()){
         BeginDrawing();
         {
-            ClearBackground(RAYWHITE);
+            ClearBackground(RAYBLACK);
             DrawCircle(100, 100, 100, RED);
-            DrawText("Hello World", 320, 240, 60, LIGHTGRAY);
+            DrawText("Hello World", 320, 240, 80, LIGHTGRAY);
         }
         EndDrawing();
     }
